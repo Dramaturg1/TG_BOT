@@ -14,7 +14,7 @@ from aiogram.types import FSInputFile
 from aiogram.fsm.context import FSMContext
 from aiogram.fsm.state import State, StatesGroup
 
-bot = Bot(token="7992171325:AAFLaUlMXHO_J59zuXreHwQwmKYfEJ4ZB-Y")
+bot = Bot(token="")
 dp = Dispatcher()
 
 DB_NAME = "users_stats.db"
@@ -1069,4 +1069,5 @@ async def main():
 
 
 if __name__ == "__main__":
+
     asyncio.run(main())
